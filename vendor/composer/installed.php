@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a3d4a4bf8da08f5e2b6c653964d0df45b384f079',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a3d4a4bf8da08f5e2b6c653964d0df45b384f079',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -34,6 +34,15 @@
             'reference' => '951eabf0338ec2522bd0d5d9c79b08a3a3d36b36',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tecnickcom/tcpdf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tracy/tracy' => array(
+            'pretty_version' => 'v2.10.8',
+            'version' => '2.10.8.0',
+            'reference' => '0e0f3312708fb9c179a92072ebacc24aeee7e2e8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tracy/tracy',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

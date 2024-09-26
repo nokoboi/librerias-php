@@ -28,6 +28,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 // $html2pdf->Output('pdf_creado.pdf');
 
 $html2pdf = new Html2Pdf();
+
 ob_start();
 $html = ob_get_clean();
 require_once 'plantilla.php';
